@@ -1,0 +1,27 @@
+.section {
+  text-align: left;
+}
+
+.section ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.projectCard {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.projectImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

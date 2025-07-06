@@ -25,7 +25,9 @@ export default function ModalCard({ title, children, onClose }) {
   return (
     <div className={styles.overlay}>
       <div className={styles.card} ref={cardRef}>
-        <h2>{title}</h2>
+        <div className={styles.cardTitle}>
+          <h2>{title}</h2>
+        </div>
         <div className={styles.content}>{children}</div>
       </div>
     </div>

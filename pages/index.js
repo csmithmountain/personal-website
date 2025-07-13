@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <h1>Hello!</h1>
-      <h2>I’m <span className={styles.name}>Christoffer</span></h2>
+      <h2>I’m <span className='borel-regular'>Christoffer</span></h2>
       <p className={styles.subtitle}>Developer | Aspiring Illustrator</p>
 
       <div className={styles.grid}>
